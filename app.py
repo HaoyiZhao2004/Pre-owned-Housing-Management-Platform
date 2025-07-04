@@ -882,7 +882,7 @@ def backup_data():
         # MySQL数据库连接信息
         host = 'localhost'
         user = 'root'
-        password = '671603'
+        password = '******'
         database = 'house_rental_db'
         
         # 构建mysqldump命令
@@ -988,7 +988,7 @@ def restore_data():
         # MySQL数据库连接信息
         host = 'localhost'
         user = 'root'
-        password = '671603'
+        password = '******'
         database = 'house_rental_db'
         
         # 构建mysql命令来执行SQL文件
